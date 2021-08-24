@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.runtimedemo">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RuntimeDemo">
+        <activity android:name=".BottomNavigationDemo"></activity>
+        <activity android:name=".NavigationDrawerDemo" />
+        <activity android:name=".ProfileScreen" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".SharedPreferenceDemo" />
+        <activity android:name=".CustomRadioLayout" />
+        <activity android:name=".dialog_design" />
+        <activity android:name=".CustomDialog" />
+        <activity android:name=".HelenaDesign" />
+        <activity android:name=".RemoDesign" />
+        <activity android:name=".DynaoDesign" />
+        <activity android:name=".SignupDesign" />
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".DialogMenuToolbar" />
+        <activity android:name=".DemoFragment" />
+        <activity android:name=".FragmentDemo" />
+        <activity android:name=".OopsConcepts" />
+        <activity android:name=".imagebuttonDemo" />
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SpinnerDemo" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
